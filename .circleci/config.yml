@@ -1,0 +1,43 @@
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - test-plain
+      - test-cloudsmith
+
+jobs:
+  test-plain:
+    executor: node
+    parallelism: 5
+    steps:
+      - run: |
+          npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+      - setup
+
+  test-cloudsmith:
+    executor: node
+    parallelism: 5
+    steps:
+      - run: |
+          npm config set registry https://npm.cloudsmith.io/circleci-wkop/npm/
+          npm config set //npm.cloudsmith.io/circleci-wkop/npm/:_authToken=$CLOUDSMITH_TOKEN
+      - setup
+
+executors:
+  node:
+    docker:
+      - image: cimg/node:22.20.0
+    working_directory: /mnt/ramdisk
+    resource_class: large
+
+commands:
+  setup:
+    steps:
+      - checkout
+      - run:
+          name: Configure pnpm store-dir
+          command: pnpm config set store-dir .pnpm-store
+      - run:
+          name: Install dependencies
+          command: pnpm install --frozen-lockfile
