@@ -3,8 +3,8 @@ version: 2.1
 workflows:
   main:
     jobs:
-      - node-plain
-      - node-cloudsmith
+      #- node-plain
+      #- node-cloudsmith
       - go-plain
       - go-cloudsmith
 
