@@ -56,13 +56,10 @@ require (
 	github.com/Antonboom/nilnil v1.1.1 // indirect
 	github.com/Antonboom/testifylint v1.6.4 // indirect
 	github.com/BurntSushi/toml v1.5.0 // indirect
-	github.com/DataDog/datadog-go/v5 v5.7.1 // indirect
 	github.com/Djarvur/go-err113 v0.1.1 // indirect
-	github.com/KimMachineGun/automemlimit v0.7.4 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.3.1 // indirect
 	github.com/Masterminds/sprig/v3 v3.3.0 // indirect
-	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/MirrexOne/unqueryvet v1.2.1 // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/OpenPeeDeeP/depguard/v2 v2.2.1 // indirect
@@ -203,18 +200,12 @@ require (
 	github.com/hashicorp/go-immutable-radix/v2 v2.1.0 // indirect
 	github.com/hashicorp/go-metrics v0.5.4 // indirect
 	github.com/hashicorp/go-msgpack/v2 v2.1.3 // indirect
-	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
-	github.com/hashicorp/go-secure-stdlib/parseutil v0.2.0 // indirect
-	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2 // indirect
 	github.com/hashicorp/go-sockaddr v1.0.7 // indirect
 	github.com/hashicorp/go-version v1.7.0 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/hashicorp/hcl v1.0.1-vault-7 // indirect
 	github.com/hashicorp/memberlist v0.5.3 // indirect
-	github.com/hashicorp/vault/api v1.21.0 // indirect
-	github.com/hashicorp/vault/api/auth/kubernetes v0.10.0 // indirect
-	github.com/hellofresh/health-go/v5 v5.5.5 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
@@ -275,7 +266,6 @@ require (
 	github.com/nishanths/exhaustive v0.12.0 // indirect
 	github.com/nishanths/predeclared v0.2.2 // indirect
 	github.com/nunnatsa/ginkgolinter v0.21.0 // indirect
-	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -296,11 +286,9 @@ require (
 	github.com/rinchsan/gosimports v0.3.8 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
-	github.com/rollbar/rollbar-go v1.4.8 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/ryancurrah/gomodguard v1.4.1 // indirect
 	github.com/ryanrolds/sqlclosecheck v0.5.1 // indirect
-	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/sanposhiho/wastedassign/v2 v2.1.0 // indirect
 	github.com/santhosh-tekuri/jsonschema/v6 v6.0.2 // indirect
 	github.com/sashamelentyev/interfacebloat v1.1.0 // indirect

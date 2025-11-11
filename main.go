@@ -9,7 +9,6 @@ import (
 	_ "github.com/aws/aws-sdk-go-v2/config"
 	_ "github.com/aws/aws-sdk-go-v2/feature/s3/manager"
 	_ "github.com/aws/aws-sdk-go-v2/service/s3"
-	_ "github.com/circleci/backplane-go/httpserver"
 	_ "github.com/coreos/go-oidc/v3/oidc"
 	_ "github.com/gin-gonic/gin"
 	_ "github.com/go-chi/chi/v5"
